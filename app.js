@@ -14,4 +14,5 @@ const app = new Slet({
 
 app.static()
 
-app.start(3005)
+// app.start(3005)
+module.exports = app
