@@ -44,4 +44,6 @@ const app = new Slet({
 })
 ```
 
+- path即static server的目录，默认是当前目录下的public目录
+
 更多参见：https://github.com/koajs/static#options
