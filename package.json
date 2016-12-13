@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "koa-compress": "^2.0.0",
+    "koa-conditional-get": "^2.0.0",
+    "koa-etag": "^3.0.0",
     "koa-static": "^3.0.0"
   },
   "devDependencies": {
@@ -26,8 +29,11 @@
     "url": "git+https://github.com/sletjs/slet-plugin-static.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "i5ting",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 4"
+  },
   "bugs": {
     "url": "https://github.com/sletjs/slet-plugin-static/issues"
   },
