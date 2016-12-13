@@ -1,5 +1,12 @@
 # slet-plugin-static
 
+
+[![NPM version](https://img.shields.io/npm/v/slet-plugin-static.svg?style=flat-square)](https://www.npmjs.com/package/slet-plugin-static)
+[![Build](https://travis-ci.org/sletjs/slet-plugin-static.svg?branch=master)](https://travis-ci.org/sletjs/slet-plugin-static)
+[![codecov.io](https://codecov.io/github/sletjs/slet-plugin-static/coverage.svg?branch=master)](https://codecov.io/github/sletjs/slet-plugin-static?branch=master)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
+
 ## Install
 
 ```
@@ -30,6 +37,12 @@ app.static()
 module.exports = app
 
 ```
+
+步骤
+
+- 1）const StaticPlugin = require('.')
+- 2）Slet.plugin(StaticPlugin)
+- 3) app.static()
 
 ## 参数
 
