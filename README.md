@@ -6,6 +6,12 @@
 [![codecov.io](https://codecov.io/github/sletjs/slet-plugin-static/coverage.svg?branch=master)](https://codecov.io/github/sletjs/slet-plugin-static?branch=master)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
+内置static方法，包含3个功能
+
+- app.static()
+  - app.gzip()
+  - app.etag()
+  - app.serve()
 
 ## Install
 
