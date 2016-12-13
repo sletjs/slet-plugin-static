@@ -12,6 +12,7 @@ const app = new Slet({
   debug: false
 })
 
+// lazy load plugin
 app.static()
 
 // app.start(3005)
