@@ -30,3 +30,18 @@ app.static()
 module.exports = app
 
 ```
+
+## 参数
+
+```
+const app = new Slet({
+  root: __dirname,
+  debug: false,
+  static: {
+    path: this.opts.root + '/public',
+    opts: {} // https://github.com/koajs/static#options
+  }
+})
+```
+
+更多参见：https://github.com/koajs/static#options
