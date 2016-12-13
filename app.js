@@ -1,5 +1,11 @@
 'use strict'
 
+// 步骤
+//
+// - 1）const StaticPlugin = require('.')
+// - 2）Slet.plugin(StaticPlugin)
+// - 3) app.static()
+
 const StaticPlugin = require('.')
 
 const Slet = require('slet')
