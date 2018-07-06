@@ -12,7 +12,7 @@
   "devDependencies": {
     "ava": "^0.17.0",
     "co-exec": "^1.0",
-    "codecov": "^1.0.1",
+    "codecov": "^3.0.3",
     "ghooks": "^2.0.0",
     "nyc": "^10.0.0",
     "slet": "^1.0.10",
